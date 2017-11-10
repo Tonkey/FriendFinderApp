@@ -51,7 +51,6 @@ export default class App extends React.Component {
     console.log("Gargh: " + this.state.position)
     if (this.state.name != '' && this.state.distance != '') {
       let url = 'http://www.jonathanhenriksen.com/'
-      let url = 'localhost:8080'
       let fetchData = {
         method: 'POST',
         headers: {
